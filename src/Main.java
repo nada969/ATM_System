@@ -1,18 +1,12 @@
-import java.util.Arrays;
+import java.util.Date;
 import java.util.Scanner;
 
-public class Main{
+public class Main {
+    public static void main(String[] args) {
 
-    public static void main(String[] args){
+        App app = new App();
 
-//      Design system to implement the all application in Main.java
-//          - scann the customer input in main.java
-//          - check authority
-//          - Exception Handles:
-
-
-        Scanner scanner = new Scanner(System.in);
-
+        System.out.println(app.app());
 
     }
 }
