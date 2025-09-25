@@ -6,7 +6,8 @@ public class Main {
 
         App app = new App();
 
-        System.out.println(app.app());
+//        System.out.println(app.app());
+//        System.out.println(db.db());
 
     }
 }

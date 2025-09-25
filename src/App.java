@@ -50,7 +50,8 @@ public class App {
 
 
 //        save [this.CardHolderName ,  this.CardExpiryDate , this.CardPAN , this.TransactionAmount (not this I want tosave balance) ] in the clients_DB
-
+        PostgresConnect db = new PostgresConnect();
+        db.connect();
 
         return this.CardHolderName;
     }
