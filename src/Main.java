@@ -5,9 +5,8 @@ public class Main {
     public static void main(String[] args) {
 
         App app = new App();
-
-//        System.out.println(app.app());
-//        System.out.println(db.db());
+        System.out.println(app.register());
+        System.out.println(app.login());
 
     }
 }
